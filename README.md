@@ -1,5 +1,5 @@
 
-# 🖥️ Help Desk Lab Portfolio — CompTIA A+
+# Home Lab 1 
 
 A hands-on IT support portfolio simulating real-world help desk work.
 Built to demonstrate skills covered in the CompTIA A+ certification.
