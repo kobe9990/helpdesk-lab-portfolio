@@ -1,8 +1,7 @@
 
 # Home Lab 1 
 
-A hands-on IT support portfolio simulating real-world help desk work.
-Built to demonstrate skills covered in the CompTIA A+ certification.
+A virtualized home lab environment built on macOS using UTM, featuring Windows 11 and Ubuntu VMs. Designed to gain hands-on experience with operating system installation, configuration, network setup, and troubleshooting
 
 ## 📁 What's Inside
 
