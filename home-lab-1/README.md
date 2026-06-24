@@ -1,34 +1,31 @@
 # 🏠 Home Lab Setup
 
 ## Overview
-A virtualized home lab environment built to simulate a small office IT setup.
-Used for hands-on practice with hardware, OS configuration, and networking concepts
-covered in the CompTIA A+ certification.
+A virtualized home lab environment built on macOS using UTM, featuring Windows 11 and Ubuntu VMs. Designed to gain hands-on experience with operating system installation, configuration, network setup, and troubleshooting.
 
 ## Host Machine
 | Component | Details |
 |---|---|
-| OS | macOS |
-| Virtualization Software | VirtualBox |
-| RAM Allocated to VMs | 4GB per VM |
-| Storage | 50GB per VM |
+| OS | macOS (M4 Chip) |
+| Virtualization Software | UTM |
+| RAM Allocated per VM | 4GB |
+| Storage per VM | 64GB |
 
 ## Virtual Machines
 
-### 💻 VM 1 — Windows 11
+### 💻 VM 1 — Windows 11 ARM
 | Setting | Details |
 |---|---|
-| OS | Windows 11 Pro |
+| OS | Windows 11 (ARM version) |
 | RAM | 4GB |
-| Storage | 50GB |
+| Storage | 64GB |
 | Purpose | Simulate end-user workstation for help desk troubleshooting |
 
 **Tasks Practiced:**
 - OS installation and initial setup
 - User account creation and management
-- Windows Update configuration
-- Driver installation and troubleshooting
 - Network adapter configuration
+- Troubleshooting Windows errors
 
 ### 🐧 VM 2 — Ubuntu 22.04
 | Setting | Details |
@@ -41,26 +38,14 @@ covered in the CompTIA A+ certification.
 **Tasks Practiced:**
 - Linux installation and terminal navigation
 - File permissions and user management
-- SSH configuration and remote access
 - Network interface troubleshooting
-- Package installation via apt
-
-## Network Setup
-- Both VMs connected via VirtualBox internal network
-- Simulates a small office LAN environment
-- practiced pinging between VMs to verify connectivity
+- Package management via apt
 
 ## Tools Used
-- VirtualBox (virtualization)
-- Windows 11 (end-user OS)
+- UTM (virtualization on Apple Silicon)
+- Windows 11 ARM (end-user OS)
 - Ubuntu 22.04 (Linux server OS)
-- draw.io (network diagrams)
-
-## Skills Demonstrated
-- Hardware and OS configuration
-- Virtualization setup and management
-- Network configuration between machines
-- Cross-platform troubleshooting (Windows + Linux)
+- macOS M4 (host machine)
 
 ## Status
-✅ Complete
+✅ Complete — Both VMs running and documented
